@@ -1,0 +1,53 @@
+{
+  "empresa": {
+    "nombre": "Hilos y Máquinas S.A.C.",
+    "rubro": "Venta de máquinas de coser, remalladoras, bordadoras, repuestos y accesorios para talleres textiles",
+    "canales_atencion": ["WhatsApp", "teléfono", "correo", "tienda física", "página web"],
+    "horario_atencion_humana": "Lunes a sábado de 9:00 a 18:00 (el chatbot atiende 24/7)"
+  },
+  "mantenimiento_preventivo": {
+    "remalladora": [
+      "Limpiar la pelusa de las cuchillas y de los dientes de arrastre al terminar cada jornada.",
+      "Lubricar con aceite de máquina los puntos indicados en el manual (sugerido: semanal si el uso es intensivo).",
+      "Revisar las agujas y cambiar las dobladas o desafiladas.",
+      "Verificar la tensión de los hilos antes de trabajos largos.",
+      "Mantenimiento preventivo con técnico sugerido cada 6 meses."
+    ],
+    "maquina_recta": [
+      "Limpiar la zona de la bobina y el garfio quitando restos de hilo y pelusa.",
+      "Lubricar los puntos indicados en el manual.",
+      "Cambiar la aguja según el tipo de tela.",
+      "Mantenimiento preventivo con técnico sugerido cada 6 meses."
+    ],
+    "bordadora": [
+      "Limpiar el área del garfio y del bastidor después de cada uso.",
+      "Lubricar solo los puntos indicados en el manual del fabricante.",
+      "Revisar tensión de hilos y estado de las agujas antes de cada bordado.",
+      "Mantenimiento preventivo con técnico sugerido cada 6 meses."
+    ]
+  },
+  "codigos_error_referenciales": [
+    {"codigo": "E1", "significado": "Posible error de enhebrado o hilo superior cortado", "accion": "Reenhebrar siguiendo el manual y verificar la tensión."},
+    {"codigo": "E2", "significado": "Posible sobrecarga o atasco del motor", "accion": "Apagar, retirar hilos atascados y volver a encender. Si persiste, solicitar soporte técnico."},
+    {"codigo": "E3", "significado": "Posible falla en el sensor del pie prensatela", "accion": "Verificar que el pie esté bien colocado. Si persiste, solicitar soporte técnico."}
+  ],
+  "fallas_frecuentes": [
+    {"sintoma": "Salta puntadas", "posibles_causas": ["aguja inadecuada o desgastada", "enhebrado incorrecto", "tensión mal regulada"]},
+    {"sintoma": "El hilo se rompe", "posibles_causas": ["tensión demasiado alta", "hilo de mala calidad", "aguja dañada"]},
+    {"sintoma": "Ruido anormal", "posibles_causas": ["falta de lubricación", "pelusa acumulada", "pieza suelta"]}
+  ],
+  "garantia": {
+    "maquinas": "12 meses por defectos de fabricación",
+    "repuestos_y_accesorios": "3 meses",
+    "no_cubre": ["golpes o caídas", "uso indebido", "falta de mantenimiento", "manipulación por terceros"],
+    "requisitos": ["comprobante de compra", "número de serie del equipo"]
+  },
+  "repuestos": {
+    "como_identificar": "Indicar marca, modelo y número de serie del equipo y, de ser posible, enviar una foto de la pieza.",
+    "nota": "El asistente no informa precios ni stock; debe derivar al área de repuestos."
+  },
+  "soporte_tecnico": {
+    "como_solicitar": "Indicar tipo de equipo, modelo, número de serie, descripción de la falla y, si es posible, una foto o audio del problema.",
+    "casos_urgentes": "Humo, olor a quemado, chispas o descarga eléctrica: dejar de usar el equipo, desconectarlo si es seguro y solicitar evaluación técnica."
+  }
+}
