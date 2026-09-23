@@ -1,68 +1,92 @@
 ﻿ID,Escenario,Entrada,Esperado,Obtenido,Cumple,Clasificacion_correcta,Tiempo_s,Observaciones
-CP01,Consulta simple,¿Qué tipos de máquinas venden y qué servicios de postventa ofrecen?,Respuesta pertinente al dominio,"En Hilos y Máquinas S.A.C. comercializamos máquinas de coser, remalladoras, bordadoras, repuestos y accesorios para talleres textiles.
+CP01,Consulta simple,¿Qué tipos de máquinas venden y qué servicios de postventa ofrecen?,Respuesta pertinente al dominio,"En Hilos y Máquinas S.A.C. comercializamos:
 
-Nuestros servicios de postventa incluyen:
-1. Configuración y uso de máquinas.
-2. Mantenimiento preventivo (limpieza, lubricación, revisión de agujas y tensiones).
-3. Identificación de repuestos y accesorios.
-4. Códigos de error y fallas frecuentes.
-5. Gestión de garantía y solicitud de soporte técnico.
+1. **Máquinas de coser rectas** – para todo tipo de tejidos.
+2. **Remalladoras** – para trabajos de remallado y costura de precisión.
+3. **Bordadoras** – para proyectos de bordado industrial y de detalle.
+4. **Repuestos y accesorios** – piezas de recambio y complementos para cada máquina.
 
-Siguiente paso: si necesitas ayuda con alguna de estas áreas, indícame el tipo de máquina, modelo y número de serie para orientarte mejor.",Sí,,4.07,
+**Servicios de postventa**  
+- Mantenimiento preventivo recomendado cada 6 meses.  
+- Soporte técnico: diagnóstico, reparación y asistencia por WhatsApp, teléfono, correo, tienda física o página web.  
+- Garantía: 12 meses para máquinas, 3 meses para repuestos y accesorios, con requisitos de comprobante de compra y número de serie.  
+
+Siguiente paso: si necesitas ayuda con un modelo específico o con un problema, indícame el tipo, modelo y número de serie.",Sí,,1.03,
 CP02,Consulta de mantenimiento,¿Qué mantenimiento necesita una remalladora?,Orientación clara,"Para tu remalladora te recomiendo:
-1. Limpiar la pelusa de las cuchillas y de los dientes de arrastre al terminar cada jornada.
-2. Lubricar con aceite de máquina los puntos indicados en el manual (sugerido: semanal si el uso es intensivo).
-3. Revisar las agujas y cambiar las dobladas o desafiladas.
-4. Verificar la tensión de los hilos antes de trabajos largos.
-5. Mantenimiento preventivo con técnico sugerido cada 6 meses.
 
-Siguiente paso: si notas ruidos anormales, solicita una revisión con nuestro servicio técnico.
-[Clasificación: mantenimiento / baja]",Sí,Sí,9.28,
-CP03,Consulta de configuración,¿Cómo enhebro correctamente mi máquina recta?,Pasos comprensibles,"User Safety: safe
-[Clasificación: configuracion / media]",No,Sí,3.65,
-CP04,Pregunta ambigua,"Mi máquina no funciona bien, ¿qué hago?",Solicita aclaración,"Para ayudarte mejor, necesito más información sobre tu equipo:
+1. Limpiar la pelusa de las cuchillas y de los dientes de arrastre al terminar cada jornada.  
+2. Lubricar con aceite de máquina los puntos indicados en el manual (se sugiere semanal si el uso es intensivo).  
+3. Revisar las agujas y cambiar las dobladas o desafiladas.  
+4. Verificar la tensión de los hilos antes de trabajos largos.  
+5. Realizar mantenimiento preventivo con técnico cada 6 meses.  
 
-1. **Tipo de máquina** (recta, remalladora, bordadora).
-2. **Modelo y número de serie** (si los tienes).
-3. **Descripción del problema** (¿qué falla específicamente? salta puntadas, ruido extra, no enciende, etc.).
+Siguiente paso: si notas ruidos anormales o fallas, solicita una revisión con nuestro servicio técnico.
+[Clasificación: mantenimiento / baja]",Sí,Sí,0.59,
+CP03,Consulta de configuración,¿Cómo enhebro correctamente mi máquina recta?,Pasos comprensibles,"Para enhebrar tu máquina recta de forma segura:
 
-Si hay humo, olor a quemado o chispas, **deja de usar la máquina y desconéctala** si es seguro.
+1. **Prepara el hilo**: corta una longitud de hilo superior y de hilo inferior (bobina) con suficiente longitud para evitar atascos.  
+2. **Enhebra el hilo superior**: pasa el hilo por el pasador de enhebrado, sigue la ruta indicada en el manual y asegúrate de que quede bien tenso.  
+3. **Enhebra la bobina**: coloca la bobina en el portabobinas, gira el eje hasta que el hilo salga de la bobina y pásalo por el pasador de la bobina.  
+4. **Ajusta la tensión**: verifica la tensión del hilo superior e inferior según el tipo de tela; la mayoría de las máquinas tienen un dial de tensión que puedes ajustar.  
+5. **Prueba de puntada**: haz una prueba en un trozo de tela de prueba para comprobar que la puntada sea uniforme y que el hilo no se rompa.
 
-Siguiente paso: comparte los detalles para que pueda orientarte o derivarte con el área técnica.",Sí,,6.43,
-CP05,Información desconocida,¿Cuál es el precio exacto del repuesto del modelo ZX-4000 y hay stock hoy?,No inventa información,"No cuento con precios ni stock actualizados de repuestos, y prefiero no darte un dato incorrecto.
+Si notas que la puntada salta o el hilo se rompe, revisa que la aguja esté bien colocada y que el hilo no esté atascado.  
+Siguiente paso: si el problema persiste, envíanos una foto o describe la falla para que podamos orientarte mejor.
+[Clasificación: configuracion / baja]",No,Sí,0.73,
+CP04,Pregunta ambigua,"Mi máquina no funciona bien, ¿qué hago?",Solicita aclaración,"Para poder orientarte mejor necesito más datos sobre tu equipo.
 
-Siguiente paso: indícame la marca, el modelo y el número de serie de tu máquina para derivarte al área de repuestos. Si puedes, envía también una foto de la pieza.",Sí,,25.53,
-CP06,Tema fuera del dominio,Dame una receta de ceviche.,Redirige correctamente,"Solo puedo ayudarte con temas de postventa de Hilos y Máquinas: uso, mantenimiento, repuestos, fallas y garantía de máquinas de coser, remalladoras y bordadoras. ¿Tienes alguna consulta sobre tu equipo?
-[Clasificación: otros / baja]",Sí,Sí,13.30,
-CP07,Conversación con seguimiento,¿Qué mantenimiento necesita una remalladora? || ¿Y cada cuánto tiempo debo hacerlo?,Mantiene contexto,"Para tu remalladora te recomiendo:
+1. Indica el tipo de máquina (remalladora, recta o bordadora) y el modelo.  
+2. Describe el síntoma o el código de error que aparece (por ejemplo E1, E2, etc.).  
+3. Si notas humo, olor a quemado, chispas o cualquier riesgo, detén el uso y desconecta la máquina antes de continuar.
 
-1. Limpiar la pelusa de las cuchillas y dientes de arrastre al terminar cada jornada.
-2. Lubricar con aceite de máquina los puntos indicados en el manual (sugerido: semanal si el uso es intensivo).
-3. Revisar las agujas y cambiar las dobladas o desafiladas.
-4. Verificar la tensión de los hilos antes de trabajos largos.
+Con esa información podré sugerirte pasos de diagnóstico y, si es necesario, derivarte al soporte técnico.  
+Siguiente paso: por favor brinda los datos solicitados.",Sí,,0.96,
+CP05,Información desconocida,¿Cuál es el precio exacto del repuesto del modelo ZX-4000 y hay stock hoy?,No inventa información,"No cuento con precios ni disponibilidad de stock actualizados para el repuesto del modelo ZX‑4000.
 
-Siguiente paso: Programa un mantenimiento preventivo con nuestro técnico cada 6 meses para una revisión completa.",Sí,,2.65,
-CP08,Audio WAV,prueba.wav,Transcribe correctamente,"prueba.wav: Hola, mi remalladora hace un ruido fuerte y a veces se traba la aguja. ¿Qué puedo hacer?",Sí,,,
+Siguiente paso: indícame la marca, el modelo exacto y el número de serie de tu máquina para derivarte al área de repuestos y obtener la información precisa.",Sí,,0.79,
+CP06,Tema fuera del dominio,Dame una receta de ceviche.,Redirige correctamente,"Lo siento, pero solo puedo ayudar con temas de postventa de Hilos y Máquinas S.A.C.: uso, mantenimiento, repuestos, fallas y garantía de tus equipos. ¿Tienes alguna consulta sobre tu máquina?
+[Clasificación: otros / baja]",Sí,Sí,0.58,
+CP07,Conversación con seguimiento,¿Qué mantenimiento necesita una remalladora? || ¿Y cada cuánto tiempo debo hacerlo?,Mantiene contexto,"El mantenimiento se realiza de la siguiente forma:
+
+1. **Limpieza diaria**: quita la pelusa de las cuchillas y de los dientes de arrastre al terminar cada jornada.  
+2. **Lubricación**: aplica aceite en los puntos indicados del manual al menos **una vez por semana** si el uso es intensivo (o cada 2 semanas en uso moderado).  
+3. **Revisión de agujas y tensión**: verifica antes de trabajos largos y cambia agujas desgastadas.  
+4. **Mantenimiento preventivo con técnico**: programa una visita cada **6 meses**.  
+
+Siguiente paso: si necesitas agendar una revisión técnica o tienes otra duda, indícanos el modelo y número de serie de tu remalladora.",Sí,,0.82,
+CP08,Audio WAV,prueba.wav,Transcribe correctamente,"prueba.wav: Hola, mi remalladora hace un ruido fuerte y a veces se traba la aguja. ¿Qué puedo hacer?",,,,
 CP09,Audio MP3/M4A,"prueba.mp3, prueba.m4a",Transcribe correctamente,"prueba.mp3: Buenas tardes, quisiera saber cada cuánto tiempo debo lubricar mi máquina recta.
-prueba.m4a: Mi remalladora comenzó a botar humo y huele a quemado.",Sí,,,
+prueba.m4a: Mi remalladora comenzó a botar humo y huele a quemado.",,,,
 CP10,Audio → chatbot,prueba.wav,Transcribe y responde,"prueba.wav: Hola, mi remalladora hace un ruido fuerte y a veces se traba la aguja. ¿Qué puedo hacer?
-[Respuesta del chatbot] Tu remalladora puede deberse a pelusa acumulada, falta de lubricación o aguja desgastada. Te sugiero:
-1. Apagar y limpiar pelusa de cuchillas y dientes de arrastre.
-2. Lubricar puntos indicados en el manual.
-3. Revisar y cambiar la aguja si está doblada.
-4. Verificar enhebrado y tensión de hilos.
-Siguiente paso: si persiste el ruido o atasco, solicita soporte técnico indicando marca, modelo, número de serie y descripción de la falla.",Sí,,7.02,
-CP11,Falla técnica,Mi bordadora hace un ruido fuerte y la aguja se traba.,Clasifica categoría/prioridad,"Para tu bordadora, el ruido fuerte y el trabado de la aguja suelen deberse a:
+[Respuesta del chatbot] Hola, lamento el inconveniente.  
+Para una remalladora, los ruidos fuertes y el atasco de la aguja suelen deberse a:
 
-1. **Pelusa acumulada** en el área del garfio o el bastidor.
-2. **Falta de lubricación** en los puntos indicados en el manual.
-3. **Aguja doblada o desafilada**, o un hilo atascado.
+1. **Falta de lubricación**: aplica aceite de máquina en los puntos indicados del manual.  
+2. **Pelusa acumulada**: limpia las cuchillas y los dientes de arrastre después de cada jornada.  
+3. **Aguja desgastada o doblada**: revisa y cambia la aguja según el tipo de tela.  
+4. **Tensión incorrecta**: verifica la tensión de los hilos antes de trabajos largos.  
 
-Te recomiendo apagar la máquina, retirar el hilo y la aguja, limpiar la zona del garfio y revisar si hay restos de hilo o pelusa. Si el ruido persiste o notas vibraciones anormales, podría haber una pieza suelta o un desgaste interno.
+Si el ruido persiste o la aguja sigue atascándose, detén el uso, desconecta el equipo y solicita una revisión técnica.
 
-Siguiente paso: si el problema continúa, envíanos una foto o audio del ruido para derivarte con el servicio técnico.
-[Clasificación: falla / alta]",Sí,Sí,5.04,
-CP12,Situación crítica,Mi remalladora comenzó a botar humo y tiene olor a quemado.,Asigna prioridad adecuada,"⚠️ **Alerta de seguridad:** deja de usar la remalladora de inmediato y, si es seguro, desconéctala de la corriente. No intentes revisarla ni usarla nuevamente hasta una evaluación técnica.
+Siguiente paso: indícame el modelo y número de serie de tu remalladora para poder orientarte con repuestos o derivarte al servicio técnico.",Sí,,3.36,
+CP11,Falla técnica,Mi bordadora hace un ruido fuerte y la aguja se traba.,Clasifica categoría/prioridad,"El ruido fuerte y el atasco de la aguja pueden deberse a:
 
-Siguiente paso: contacta ya a nuestro servicio técnico indicando marca, modelo, número de serie y una descripción de lo que ocurre. Si es posible, envía una foto o video del estado del equipo.
-[Clasificación: falla / critica]",Sí,Sí,1.66,
+1. Falta de lubricación en los puntos indicados en el manual.  
+2. Acumulación de pelusa o restos de hilo en el área del garfio y del bastidor.  
+3. Aguja dañada o inadecuada para la tela que estás usando.  
+4. Tensión de hilos mal regulada o pieza suelta.
+
+**Pasos recomendados**  
+1. Apaga la bordadora y desconéctala.  
+2. Limpia cuidadosamente el garfio, el bastidor y elimina cualquier pelusa.  
+3. Lubrica solo los puntos especificados en el manual con aceite de máquina.  
+4. Revisa la aguja; cámbiala por una nueva del tipo correcto.  
+5. Ajusta la tensión de los hilos y verifica que todas las piezas estén bien fijadas.
+
+Si el ruido persiste o la aguja sigue trabándose, solicita evaluación técnica.  
+Siguiente paso: indícame el modelo y número de serie de tu bordadora para derivarte al área de soporte técnico.
+[Clasificación: falla / alta]",Sí,Sí,1.66,
+CP12,Situación crítica,Mi remalladora comenzó a botar humo y tiene olor a quemado.,Asigna prioridad adecuada,"¡Atención! Por seguridad, deja de usar la remalladora de inmediato y desconéctala de la corriente si es seguro hacerlo. No intentes abrirla ni manipular piezas internas.
+
+Siguiente paso: contacta urgentemente a nuestro servicio técnico para una evaluación profesional. Puedes hacerlo por WhatsApp, teléfono o correo durante nuestro horario de atención (lunes a sábado, 9:00 a 18:00).
+[Clasificación: falla / critica]",Sí,Sí,0.72,
