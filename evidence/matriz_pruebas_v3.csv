@@ -54,9 +54,9 @@ CP07,Conversación con seguimiento,¿Qué mantenimiento necesita una remalladora
 4. **Mantenimiento preventivo con técnico**: programa una visita cada **6 meses**.  
 
 Siguiente paso: si necesitas agendar una revisión técnica o tienes otra duda, indícanos el modelo y número de serie de tu remalladora.",Sí,,0.82,
-CP08,Audio WAV,prueba.wav,Transcribe correctamente,"prueba.wav: Hola, mi remalladora hace un ruido fuerte y a veces se traba la aguja. ¿Qué puedo hacer?",,,,
+CP08,Audio WAV,prueba.wav,Transcribe correctamente,"prueba.wav: Hola, mi remalladora hace un ruido fuerte y a veces se traba la aguja. ¿Qué puedo hacer?",Sí,,,
 CP09,Audio MP3/M4A,"prueba.mp3, prueba.m4a",Transcribe correctamente,"prueba.mp3: Buenas tardes, quisiera saber cada cuánto tiempo debo lubricar mi máquina recta.
-prueba.m4a: Mi remalladora comenzó a botar humo y huele a quemado.",,,,
+prueba.m4a: Mi remalladora comenzó a botar humo y huele a quemado.",Sí,,,
 CP10,Audio → chatbot,prueba.wav,Transcribe y responde,"prueba.wav: Hola, mi remalladora hace un ruido fuerte y a veces se traba la aguja. ¿Qué puedo hacer?
 [Respuesta del chatbot] Hola, lamento el inconveniente.  
 Para una remalladora, los ruidos fuertes y el atasco de la aguja suelen deberse a:
@@ -71,19 +71,19 @@ Si el ruido persiste o la aguja sigue atascándose, detén el uso, desconecta el
 Siguiente paso: indícame el modelo y número de serie de tu remalladora para poder orientarte con repuestos o derivarte al servicio técnico.",Sí,,3.36,
 CP11,Falla técnica,Mi bordadora hace un ruido fuerte y la aguja se traba.,Clasifica categoría/prioridad,"El ruido fuerte y el atasco de la aguja pueden deberse a:
 
-1. Falta de lubricación en los puntos indicados en el manual.  
-2. Acumulación de pelusa o restos de hilo en el área del garfio y del bastidor.  
-3. Aguja dañada o inadecuada para la tela que estás usando.  
+1. Falta de lubricación en los puntos indicados en el manual.
+2. Acumulación de pelusa o restos de hilo en el área del garfio y del bastidor.
+3. Aguja dañada o inadecuada para la tela que estás usando.
 4. Tensión de hilos mal regulada o pieza suelta.
 
-**Pasos recomendados**  
-1. Apaga la bordadora y desconéctala.  
-2. Limpia cuidadosamente el garfio, el bastidor y elimina cualquier pelusa.  
-3. Lubrica solo los puntos especificados en el manual con aceite de máquina.  
-4. Revisa la aguja; cámbiala por una nueva del tipo correcto.  
+**Pasos recomendados**
+1. Apaga la bordadora y desconéctala.
+2. Limpia cuidadosamente el garfio, el bastidor y elimina cualquier pelusa.
+3. Lubrica solo los puntos especificados en el manual con aceite de máquina.
+4. Revisa la aguja; cámbiala por una nueva del tipo correcto.
 5. Ajusta la tensión de los hilos y verifica que todas las piezas estén bien fijadas.
 
-Si el ruido persiste o la aguja sigue trabándose, solicita evaluación técnica.  
+Si el ruido persiste o la aguja sigue trabándose, solicita evaluación técnica.
 Siguiente paso: indícame el modelo y número de serie de tu bordadora para derivarte al área de soporte técnico.
 [Clasificación: falla / alta]",Sí,Sí,1.66,
 CP12,Situación crítica,Mi remalladora comenzó a botar humo y tiene olor a quemado.,Asigna prioridad adecuada,"¡Atención! Por seguridad, deja de usar la remalladora de inmediato y desconéctala de la corriente si es seguro hacerlo. No intentes abrirla ni manipular piezas internas.
