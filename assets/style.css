@@ -31,7 +31,16 @@ html, body, [data-testid="stAppViewContainer"] {
   background: var(--hm-ink);
   border-right: 1px solid #171d27;
 }
-[data-testid="stSidebar"] * { color: #F1EBDD !important; }
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] div.stMarkdown span {
+  color: #F1EBDD !important;
+}
+
 [data-testid="stSidebar"] h3 {
   font-family: var(--hm-display);
   font-weight: 600;
@@ -52,6 +61,7 @@ html, body, [data-testid="stAppViewContainer"] {
 [data-testid="stSidebar"] [data-testid="stButton"] button {
   background: transparent;
   border: 1px solid #F1EBDD55;
+  color: #F1EBDD !important;
 }
 
 .hm-hero {
@@ -161,43 +171,48 @@ html, body, [data-testid="stAppViewContainer"] {
 [data-testid="stFileUploader"] { border-radius: 10px; }
 
 
-table {
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-collapse: collapse;
-}
 
-th {
+[data-testid="stSidebar"] [data-baseweb="select"] div {
   background-color: var(--hm-panel) !important;
   color: var(--hm-ink) !important;
-  font-weight: 600 !important;
-  padding: 0.6rem !important;
-  border: 1px solid var(--hm-border) !important;
-  text-align: left !important;
 }
-
-td {
-  background-color: #FFFFFF !important;
+[data-testid="stSidebar"] [data-baseweb="select"] span {
   color: var(--hm-ink) !important;
-  padding: 0.6rem !important;
-  border: 1px solid var(--hm-border) !important;
 }
-
-[data-testid="stChatMessage"] table * {
+ul[data-baseweb="menu"] li {
+  background-color: var(--hm-panel) !important;
   color: var(--hm-ink) !important;
 }
 
-[data-testid="stSidebar"] [data-baseweb="select"] > div {
+[data-testid="stChatInput"] {
   background-color: transparent !important;
-  color: #F1EBDD !important;
-  border: 1px solid #F1EBDD55 !important;
+  border: none !important;
 }
 
-[data-testid="stSidebar"] [data-baseweb="select"] * {
-  color: #F1EBDD !important;
+[data-testid="stChatInput"] > div {
+  background-color: var(--hm-panel) !important;
+  border: 1px solid var(--hm-border) !important;
+  border-radius: 8px !important;
 }
 
-[data-testid="stSidebar"] [data-baseweb="popover"] * {
+[data-testid="stChatInput"] > div:focus-within {
+  border: 1px solid #ff4b4b !important;
+  box-shadow: 0 0 0 1px #ff4b4b !important;
+}
+
+[data-testid="stChatInput"] textarea {
   color: var(--hm-ink) !important;
+  background-color: transparent !important;
+}
+[data-testid="stChatInput"] textarea::placeholder {
+  color: var(--hm-muted) !important;
+}
+
+[data-testid="stChatInput"] button {
+  background-color: #ff4b4b !important;
+  border-radius: 6px !important;
+  border: none !important;
+}
+[data-testid="stChatInput"] svg {
+  fill: #ffffff !important;
 }
