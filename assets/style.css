@@ -170,8 +170,6 @@ html, body, [data-testid="stAppViewContainer"] {
 [data-testid="stAlert"] { border-radius: 10px; }
 [data-testid="stFileUploader"] { border-radius: 10px; }
 
-
-
 [data-testid="stSidebar"] [data-baseweb="select"] div {
   background-color: var(--hm-panel) !important;
   color: var(--hm-ink) !important;
@@ -188,18 +186,15 @@ ul[data-baseweb="menu"] li {
   background-color: transparent !important;
   border: none !important;
 }
-
 [data-testid="stChatInput"] > div {
   background-color: var(--hm-panel) !important;
   border: 1px solid var(--hm-border) !important;
   border-radius: 8px !important;
 }
-
 [data-testid="stChatInput"] > div:focus-within {
   border: 1px solid #ff4b4b !important;
   box-shadow: 0 0 0 1px #ff4b4b !important;
 }
-
 [data-testid="stChatInput"] textarea {
   color: var(--hm-ink) !important;
   background-color: transparent !important;
@@ -207,7 +202,6 @@ ul[data-baseweb="menu"] li {
 [data-testid="stChatInput"] textarea::placeholder {
   color: var(--hm-muted) !important;
 }
-
 [data-testid="stChatInput"] button {
   background-color: #ff4b4b !important;
   border-radius: 6px !important;
@@ -215,4 +209,63 @@ ul[data-baseweb="menu"] li {
 }
 [data-testid="stChatInput"] svg {
   fill: #ffffff !important;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+th {
+  background-color: var(--hm-panel) !important;
+  color: var(--hm-ink) !important;
+  font-weight: 600 !important;
+  padding: 0.6rem !important;
+  border: 1px solid var(--hm-border) !important;
+  text-align: left !important;
+}
+td {
+  background-color: #FFFFFF !important;
+  color: var(--hm-ink) !important;
+  padding: 0.6rem !important;
+  border: 1px solid var(--hm-border) !important;
+}
+[data-testid="stChatMessage"] table * {
+  color: var(--hm-ink) !important;
+}
+
+[data-testid="stFileUploader"] {
+  background-color: transparent !important;
+}
+[data-testid="stFileUploader"] section {
+  background-color: var(--hm-panel) !important;
+  color: var(--hm-ink) !important;
+  border: 1px dashed var(--hm-border) !important;
+}
+[data-testid="stFileUploader"] section * {
+  color: var(--hm-ink) !important;
+}
+
+[data-testid="stTextArea"] > div > div,
+[data-testid="stTextArea"] [data-baseweb="textarea"],
+[data-testid="stTextArea"] [data-baseweb="base-input"],
+[data-testid="stTextArea"] textarea {
+  background-color: var(--hm-panel) !important;
+  color: var(--hm-ink) !important;
+}
+
+[data-testid="stTextArea"] [data-baseweb="textarea"] {
+  border: 1px solid var(--hm-border) !important;
+  border-radius: 8px !important;
+  background-color: transparent !important;
+}
+
+[data-testid="stTextArea"] [data-baseweb="textarea"]:focus-within {
+  border: 1px solid #ff4b4b !important;
+  box-shadow: 0 0 0 1px #ff4b4b !important;
+}
+
+[data-testid="stTextArea"] textarea::placeholder {
+  color: var(--hm-muted) !important;
 }
